@@ -245,7 +245,7 @@ header {
 
 
 /* __________ Logo __________ */
-.logo {float:left;}
+.logo {float:left; margin-top:0.5em;}
 .logo a {
 	text-transform:uppercase;
 	line-height:80px;
@@ -290,13 +290,13 @@ header {
 	font-weight:900;
 	line-height:20px;
 	font-size:13px;
-	color:#666;
+	color:#000;
 	transition: all 0.3s ease-in-out; 
 	-webkit-transition: all 0.3s ease-in-out;
 }
 .navmenu li:hover a,
 .navmenu li.active a {
-	color:#333;
+	color:#666;
 }
 
 /* Sub menu */
